@@ -84,5 +84,7 @@
 }
 
 @media(max-width: 580px) {
-   
+   .navigation__link {
+       font-size: 12px;
+   }
 }

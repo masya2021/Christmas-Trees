@@ -87,7 +87,9 @@ button {
 }
 
 @media(max-width: 1000px) {
-   
+    .container{
+        padding: 0 40px;
+    }
 }
 
 @media(max-width: 760px) {
@@ -95,5 +97,7 @@ button {
 }
 
 @media(max-width: 580px) {
-   
+    .container{
+        padding: 0 10px;
+    }
 }
