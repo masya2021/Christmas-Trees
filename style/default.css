@@ -45,6 +45,10 @@ h1, h2 {
     color: var(--main-color);
 }
 
+h1, h2, h3, p {
+    margin: 0;
+}
+
 .container {
     max-width: 1340px;
     padding: 0px 25px;
