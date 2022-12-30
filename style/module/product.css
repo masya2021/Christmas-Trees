@@ -204,5 +204,31 @@
 }
 
 @media(max-width: 580px) {
-   
+    .product:nth-child(odd) .product__container, 
+    .product__container {
+        flex-direction: column-reverse;
+    }
+    .product__content {
+        width: 100%;
+        max-width: none;  /* может и не надо. Но все таки надо ))*/
+        padding: 0; 
+    }
+    .product__picture {
+        width: 100%;
+    }
+
+    .product__title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .product__features {
+        font-size: 12px;
+    }
+    .product__description {
+        font-size: 14px;
+    }
+    .product__button {
+        font-size: 12px;
+        padding: 5px 14px;
+    }
 }
