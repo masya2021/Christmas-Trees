@@ -1,0 +1,134 @@
+
+.modal {
+    position: relative;
+    width: 100%;
+    background-color: var(--main-color);
+    max-width: 950px;
+    padding: 60px 85px;
+    border: 1px solid var(--second-color);
+    box-sizing: border-box;
+    border-radius: 14px;
+    color: var(--second-color);
+}
+
+.modal__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    color: var(--main-bg-color);
+    transition: color 0.3s ease-in;
+}
+
+.modal__close:hover {
+    color: var(--second-color);
+}
+
+.modal__close:active {
+    color: var(--second-bg-color);
+}
+
+.modal__close:focus {
+    color: var(--second-color);
+    outline: 1px solid var(--second-color);
+}
+
+.modal__title {
+    color: var(--main-bg-color);
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__label {
+    display: block;
+    position: relative;
+}
+
+.modal__label-text {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    color: var(--second-color);
+}
+
+.modal__input {
+    width: 100%;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    padding: 45px 15px 31px;
+    border: 1px solid var(--second-bg-color);
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.modal__label-end {
+    margin-bottom: 60px;
+}
+
+.modal__call {
+    padding: 14px 36px;
+    background-color: var(--trigger-color);
+    border-radius: 10px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: var(--main-color);
+    align-self: flex-end;
+    border: 0;
+}
+
+.modal__call:hover {
+    background-color: var(--main-bg-color);
+}
+
+.modal__call:active {
+    background-color: var(--main-bg-color);
+    box-shadow: 0px 2px 6px rgba(2, 67, 52, 0.36);
+}
+
+.modal__call:focus {
+    outline-color: var(--second-color);
+    background-color: var(--trigger-color);
+}
+
+@media(max-width: 1440px) {
+    .container{
+        padding: 0 42px;
+    }
+}
+
+@media(max-width: 1200px) {
+   
+}
+
+@media(max-width: 1000px) {
+   
+}
+
+@media(max-width: 760px) {
+   
+}
+
+@media(max-width: 580px) {
+   
+}
+
+
