@@ -10,12 +10,9 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
-    overflow-x: auto;
+    overflow-y: auto;
 }
 
-.overlay__order {
-    display: flex;
-}
 .overlay__active {
     display: flex;
 }

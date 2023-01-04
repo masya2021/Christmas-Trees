@@ -1,7 +1,6 @@
 import "./module/burger.js";
-
-
-
+import "./module/madal.js";
+import "./module/timer.js";
 
 // console.log(true + true + true === 3);
 
@@ -59,7 +58,6 @@ import "./module/burger.js";
 // let x = (y = 2);
 // alert(x);
 
-
 // console.log([] + 1 + 2);
 
 // console.log("1"[0]);
@@ -67,4 +65,3 @@ import "./module/burger.js";
 // console.log(4 && 2 && 1 && null);
 
 // console.log(null || 2 && 3 || 4);
-
